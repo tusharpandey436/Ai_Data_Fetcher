@@ -1,0 +1,322 @@
+2026-03-10T11:15:20.134045+0530 | INFO | Loading embedding model
+2026-03-10T11:15:25.035037+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:15:25.035613+0530 | INFO | Building FAISS index
+2026-03-10T11:15:25.112406+0530 | INFO | FAISS index created
+2026-03-10T11:15:25.173847+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:16:45.269000+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:17:01.998134+0530 | INFO | Loading embedding model
+2026-03-10T11:17:06.703323+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:17:06.703979+0530 | INFO | Building FAISS index
+2026-03-10T11:17:06.793251+0530 | INFO | FAISS index created
+2026-03-10T11:17:06.845699+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:18:30.676150+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:18:30.676759+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:18:30.677118+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:18:31.132427+0530 | ERROR | Gemini API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-10T11:18:31.133143+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:18:31.156466+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:18:31.157178+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:18:31.157773+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:18:31.164127+0530 | INFO | Generating report: query_result
+2026-03-10T11:18:31.165091+0530 | INFO | Report generated successfully
+2026-03-10T11:19:45.002255+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:20:04.627769+0530 | INFO | Loading embedding model
+2026-03-10T11:20:09.602539+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:20:09.603335+0530 | INFO | Building FAISS index
+2026-03-10T11:20:09.745705+0530 | INFO | FAISS index created
+2026-03-10T11:20:09.808715+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:20:09.820240+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:20:09.820717+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:20:09.821073+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:20:09.991246+0530 | ERROR | Gemini API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 15.077967258s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}
+2026-03-10T11:20:09.992325+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:20:10.013769+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:20:10.014512+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:20:10.014928+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:20:10.020753+0530 | INFO | Generating report: query_result
+2026-03-10T11:20:10.021216+0530 | INFO | Report generated successfully
+2026-03-10T11:20:44.140121+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:21:04.407776+0530 | INFO | Loading embedding model
+2026-03-10T11:21:09.277270+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:21:09.278007+0530 | INFO | Building FAISS index
+2026-03-10T11:21:09.372733+0530 | INFO | FAISS index created
+2026-03-10T11:21:09.432886+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:21:09.446147+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:21:09.446696+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:21:09.447053+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:21:09.614685+0530 | ERROR | Gemini API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-10T11:21:09.615370+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:21:09.634587+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:21:09.635231+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:21:09.635591+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:21:09.641579+0530 | INFO | Generating report: query_result
+2026-03-10T11:21:09.642111+0530 | INFO | Report generated successfully
+2026-03-10T11:23:06.650957+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:23:30.937524+0530 | INFO | Loading embedding model
+2026-03-10T11:23:36.068517+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:23:36.069066+0530 | INFO | Building FAISS index
+2026-03-10T11:23:36.171495+0530 | INFO | FAISS index created
+2026-03-10T11:23:36.230358+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:23:48.355888+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:23:48.356630+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:23:48.357024+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:23:48.905790+0530 | ERROR | Gemini API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-10T11:23:48.906567+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:23:48.930175+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:23:48.931236+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:23:48.931810+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:23:48.937285+0530 | INFO | Generating report: query_result
+2026-03-10T11:23:48.937648+0530 | INFO | Report generated successfully
+2026-03-10T11:25:22.730159+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:26:45.532806+0530 | INFO | Loading embedding model
+2026-03-10T11:26:50.365921+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:26:50.366499+0530 | INFO | Building FAISS index
+2026-03-10T11:26:50.470766+0530 | INFO | FAISS index created
+2026-03-10T11:26:50.543617+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:27:36.598408+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:27:36.599013+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:27:36.599445+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:27:37.024464+0530 | ERROR | Gemini API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.271840151s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+2026-03-10T11:27:37.025186+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:27:37.050356+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:27:37.051067+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:27:37.051571+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:27:37.057640+0530 | INFO | Generating report: query_result
+2026-03-10T11:27:37.058036+0530 | INFO | Report generated successfully
+2026-03-10T11:27:52.919273+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:28:09.134827+0530 | INFO | Loading embedding model
+2026-03-10T11:28:13.674719+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:28:13.675427+0530 | INFO | Building FAISS index
+2026-03-10T11:28:13.760111+0530 | INFO | FAISS index created
+2026-03-10T11:28:13.816201+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:28:15.115167+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:28:15.115745+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:28:15.116092+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:28:16.726077+0530 | ERROR | Failed to parse Gemini response
+2026-03-10T11:28:16.759757+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:28:16.760428+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:28:16.760898+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:28:16.766019+0530 | INFO | Generating report: query_result
+2026-03-10T11:28:16.766357+0530 | INFO | Report generated successfully
+2026-03-10T11:31:27.724610+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:31:44.415824+0530 | INFO | Loading embedding model
+2026-03-10T11:31:49.094708+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:31:49.095349+0530 | INFO | Building FAISS index
+2026-03-10T11:31:49.169056+0530 | INFO | FAISS index created
+2026-03-10T11:31:49.224091+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:31:49.334173+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:32:09.654269+0530 | INFO | Loading embedding model
+2026-03-10T11:32:14.077827+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:32:14.078405+0530 | INFO | Building FAISS index
+2026-03-10T11:32:14.157057+0530 | INFO | FAISS index created
+2026-03-10T11:32:14.210208+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:32:36.346772+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:32:36.347364+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:32:36.347828+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:32:38.261787+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:32:38.262462+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:32:38.262989+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:32:38.265813+0530 | INFO | Applying condition: amount > 10000
+2026-03-10T11:32:38.276221+0530 | INFO | Generating report: query_result
+2026-03-10T11:32:38.276838+0530 | INFO | Report generated successfully
+2026-03-10T11:33:54.615868+0530 | INFO | Fetching latest report
+2026-03-10T11:38:05.593171+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T11:38:22.221547+0530 | INFO | Loading embedding model
+2026-03-10T11:38:26.657255+0530 | INFO | Dataset metadata loaded
+2026-03-10T11:38:26.657880+0530 | INFO | Building FAISS index
+2026-03-10T11:38:26.728563+0530 | INFO | FAISS index created
+2026-03-10T11:38:26.812248+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T11:38:36.814470+0530 | INFO | Fetching latest report
+2026-03-10T11:39:17.979178+0530 | INFO | Received query: Show transactions above 10000
+2026-03-10T11:39:17.979748+0530 | INFO | Processing query: Show transactions above 10000
+2026-03-10T11:39:17.980090+0530 | INFO | Sending prompt to Gemini
+2026-03-10T11:39:19.809855+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T11:39:19.810511+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:39:19.810927+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T11:39:19.814502+0530 | INFO | Applying condition: amount > 10000
+2026-03-10T11:39:19.822997+0530 | INFO | Generating report: query_result
+2026-03-10T11:39:19.824964+0530 | INFO | Report saved to reports\query_result_20260310_113919.json
+2026-03-10T11:39:19.826644+0530 | INFO | Report generated successfully
+2026-03-10T11:39:27.335122+0530 | INFO | Fetching latest report
+2026-03-10T12:22:53.832248+0530 | INFO | Fetching latest report
+2026-03-10T12:23:06.866463+0530 | INFO | Fetching latest report
+2026-03-10T12:26:58.389007+0530 | INFO | Fetching latest report
+2026-03-10T12:27:07.623300+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T12:28:50.014263+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T12:28:52.685001+0530 | INFO | Fetching latest report
+2026-03-10T12:30:06.122624+0530 | INFO | Fetching latest report
+2026-03-10T12:30:11.368382+0530 | INFO | Fetching latest report
+2026-03-10T12:30:21.166923+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T12:34:32.500953+0530 | INFO | Received query: show transatcions above 10000
+2026-03-10T12:34:32.501619+0530 | INFO | Processing query: show transatcions above 10000
+2026-03-10T12:34:32.502203+0530 | INFO | Sending prompt to Gemini
+2026-03-10T12:34:35.525219+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T12:34:35.527016+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T12:34:35.527975+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T12:34:35.532418+0530 | ERROR | CSV loading failed: [Errno 2] No such file or directory: 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'
+2026-03-10T13:00:10.225410+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:00:13.764658+0530 | INFO | Fetching latest report
+2026-03-10T13:00:39.451016+0530 | INFO | Received query: show transactions above 10000
+2026-03-10T13:00:39.451697+0530 | INFO | Processing query: show transactions above 10000
+2026-03-10T13:00:39.452242+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:00:41.404488+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T13:00:41.405442+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:00:41.405866+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:00:41.406787+0530 | ERROR | CSV loading failed: [Errno 2] No such file or directory: 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'
+2026-03-10T13:00:57.446034+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:00:58.605386+0530 | INFO | Fetching latest report
+2026-03-10T13:01:16.804912+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:01:27.233195+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:01:35.902103+0530 | INFO | Fetching latest report
+2026-03-10T13:01:53.722314+0530 | INFO | Received query: Show transactions below 10000
+2026-03-10T13:01:53.722895+0530 | INFO | Processing query: Show transactions below 10000
+2026-03-10T13:01:53.723272+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:01:55.087372+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T13:01:55.088108+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:01:55.088602+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:01:55.089813+0530 | ERROR | CSV loading failed: [Errno 2] No such file or directory: 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'
+2026-03-10T13:01:58.687869+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:01:59.334537+0530 | INFO | Fetching latest report
+2026-03-10T13:02:04.015430+0530 | ERROR | Error fetching datasets: [WinError 3] The system cannot find the path specified: './data'
+2026-03-10T13:04:36.163130+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:05:40.514094+0530 | INFO | Loading embedding model
+2026-03-10T13:05:45.685290+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:05:45.685858+0530 | INFO | Building FAISS index
+2026-03-10T13:05:45.776097+0530 | INFO | FAISS index created
+2026-03-10T13:05:45.848596+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:05:50.117328+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:05:56.284748+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:06:00.777453+0530 | INFO | Fetching latest report
+2026-03-10T13:06:15.100743+0530 | INFO | Received query: show transactions above 10000
+2026-03-10T13:06:15.101923+0530 | INFO | Processing query: show transactions above 10000
+2026-03-10T13:06:15.102318+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:06:17.023965+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T13:06:17.024775+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:06:17.025114+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:06:17.027448+0530 | INFO | Applying condition: amount > 10000
+2026-03-10T13:06:17.035465+0530 | INFO | Generating report: query_result
+2026-03-10T13:06:17.037455+0530 | INFO | Report saved to reports\query_result_20260310_130617.json
+2026-03-10T13:06:17.037912+0530 | INFO | Report generated successfully
+2026-03-10T13:06:21.322295+0530 | INFO | Fetching latest report
+2026-03-10T13:06:24.283226+0530 | INFO | Fetching latest report
+2026-03-10T13:06:25.073550+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:06:32.966545+0530 | INFO | Fetching latest report
+2026-03-10T13:09:01.570164+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:10:55.144070+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:10:59.627204+0530 | INFO | Datasets fetched successfully
+2026-03-10T13:14:35.842583+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:14:55.842256+0530 | INFO | Loading embedding model
+2026-03-10T13:15:00.728634+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:15:00.729238+0530 | INFO | Building FAISS index
+2026-03-10T13:15:00.824632+0530 | INFO | FAISS index created
+2026-03-10T13:15:00.915882+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:16:40.656815+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:16:46.319581+0530 | INFO | Fetching latest report
+2026-03-10T13:16:47.736309+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:16:50.255045+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:16:51.128114+0530 | INFO | Fetching latest report
+2026-03-10T13:16:53.512206+0530 | INFO | Fetching latest report
+2026-03-10T13:16:54.142517+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:17:07.909885+0530 | INFO | Fetching latest report
+2026-03-10T13:17:20.061786+0530 | INFO | Received query: show transaction id above 10000
+2026-03-10T13:17:20.062356+0530 | INFO | Processing query: show transaction id above 10000
+2026-03-10T13:17:20.063001+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:17:22.485367+0530 | INFO | Dataset search result: [{'name': 'transactions.csv', 'description': '\n                Dataset transactions.csv containing columns: transaction_id, customer_id, amount, date.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\transactions.csv'}]
+2026-03-10T13:17:22.486017+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:17:22.486377+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\transactions.csv
+2026-03-10T13:17:22.488741+0530 | INFO | Applying condition: transaction_id > 10000
+2026-03-10T13:17:22.492674+0530 | ERROR | Condition processing failed: '>' not supported between instances of 'str' and 'int'
+2026-03-10T13:17:22.496061+0530 | INFO | Generating report: query_result
+2026-03-10T13:17:22.498897+0530 | INFO | Report saved to reports\query_result_20260310_131722.json
+2026-03-10T13:17:22.499578+0530 | INFO | Report generated successfully
+2026-03-10T13:17:25.916785+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:17:27.202667+0530 | INFO | Fetching latest report
+2026-03-10T13:17:30.714698+0530 | INFO | Fetching latest report
+2026-03-10T13:17:32.862951+0530 | INFO | Fetching latest report
+2026-03-10T13:19:39.745126+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:19:59.892340+0530 | INFO | Loading embedding model
+2026-03-10T13:20:04.865637+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:20:04.866325+0530 | INFO | Building FAISS index
+2026-03-10T13:20:04.951118+0530 | INFO | FAISS index created
+2026-03-10T13:20:05.044513+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:20:32.063987+0530 | INFO | Fetching all available reports
+2026-03-10T13:22:31.148425+0530 | INFO | Fetching all available reports
+2026-03-10T13:22:31.153498+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:22:43.341864+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:22:44.562814+0530 | INFO | Fetching all available reports
+2026-03-10T13:24:11.304489+0530 | INFO | Fetching all available reports
+2026-03-10T13:24:12.022201+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:24:13.610152+0530 | INFO | Fetching all available reports
+2026-03-10T13:24:13.614155+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:24:17.596064+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:24:18.789542+0530 | INFO | Fetching all available reports
+2026-03-10T13:25:42.729072+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:26:04.483925+0530 | INFO | Loading embedding model
+2026-03-10T13:26:09.479121+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:26:09.479792+0530 | INFO | Building FAISS index
+2026-03-10T13:26:09.575424+0530 | INFO | FAISS index created
+2026-03-10T13:26:09.637352+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:26:38.638443+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:26:55.799101+0530 | INFO | Loading embedding model
+2026-03-10T13:27:00.471752+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:27:00.472599+0530 | INFO | Building FAISS index
+2026-03-10T13:27:00.555750+0530 | INFO | FAISS index created
+2026-03-10T13:27:00.637311+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:28:05.346565+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:28:05.346944+0530 | INFO | Fetching all available reports
+2026-03-10T13:30:21.430068+0530 | INFO | Fetching all available reports
+2026-03-10T13:30:21.434560+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:30:30.046569+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:30:31.030338+0530 | INFO | Fetching all available reports
+2026-03-10T13:30:32.222374+0530 | INFO | Fetching all available reports
+2026-03-10T13:30:32.713167+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:30:33.699289+0530 | INFO | Fetching all available reports
+2026-03-10T13:30:33.701730+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:33:13.611196+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:33:34.239061+0530 | INFO | Loading embedding model
+2026-03-10T13:33:39.164700+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:33:39.165263+0530 | INFO | Building FAISS index
+2026-03-10T13:33:39.249140+0530 | INFO | FAISS index created
+2026-03-10T13:34:31.843974+0530 | INFO | Loading embedding model
+2026-03-10T13:34:36.733492+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:34:36.734252+0530 | INFO | Building FAISS index
+2026-03-10T13:34:36.809179+0530 | INFO | FAISS index created
+2026-03-10T13:34:36.874416+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:34:46.377286+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:34:58.250064+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:34:58.254981+0530 | INFO | Fetching all available reports
+2026-03-10T13:35:10.285303+0530 | INFO | Fetching all available reports
+2026-03-10T13:35:10.289653+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:35:17.127380+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:35:17.127593+0530 | INFO | Fetching all available reports
+2026-03-10T13:38:06.602809+0530 | INFO | Received query: all customer_id with risk_level low
+2026-03-10T13:38:06.603342+0530 | INFO | Processing query: all customer_id with risk_level low
+2026-03-10T13:38:06.603658+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:38:08.714343+0530 | INFO | Dataset search result: [{'name': 'customers.csv', 'description': '\n                Dataset customers.csv containing columns: customer_id, name, risk_level.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\customers.csv'}]
+2026-03-10T13:38:08.715123+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\customers.csv
+2026-03-10T13:38:08.715444+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\customers.csv
+2026-03-10T13:38:08.736469+0530 | INFO | Applying condition: risk_level = 'low'
+2026-03-10T13:38:08.738998+0530 | ERROR | Condition processing failed: cannot assign without a target object
+2026-03-10T13:38:08.743833+0530 | INFO | Generating report: query_result
+2026-03-10T13:38:08.748821+0530 | INFO | Report saved to reports\query_result_20260310_133808.json
+2026-03-10T13:38:08.749306+0530 | INFO | Report generated successfully
+2026-03-10T13:38:20.497728+0530 | INFO | Successfully fetched 2 datasets
+2026-03-10T13:38:21.787984+0530 | INFO | Fetching all available reports
+2026-03-10T13:39:09.840035+0530 | INFO | 🛑 Data Fetcher Agent API stopped
+2026-03-10T13:39:32.033777+0530 | INFO | Loading embedding model
+2026-03-10T13:39:36.604851+0530 | INFO | Dataset metadata loaded
+2026-03-10T13:39:36.605413+0530 | INFO | Building FAISS index
+2026-03-10T13:39:36.696176+0530 | INFO | FAISS index created
+2026-03-10T13:39:36.757499+0530 | INFO | 🚀 Data Fetcher Agent API started
+2026-03-10T13:39:52.997291+0530 | INFO | Received query: all risk_level low
+2026-03-10T13:39:52.997910+0530 | INFO | Processing query: all risk_level low
+2026-03-10T13:39:52.998342+0530 | INFO | Sending prompt to Gemini
+2026-03-10T13:39:54.592839+0530 | INFO | Dataset search result: [{'name': 'customers.csv', 'description': '\n                Dataset customers.csv containing columns: customer_id, name, risk_level.\n                This dataset can be used for analytics and reporting.\n                ', 'path': 'C:\\Users\\GX\\Documents\\Ai_Data_Fetcher\\backend\\data\\customers.csv'}]
+2026-03-10T13:39:54.593615+0530 | INFO | Selected dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\customers.csv
+2026-03-10T13:39:54.594030+0530 | INFO | Loading CSV dataset: C:\Users\GX\Documents\Ai_Data_Fetcher\backend\data\customers.csv
+2026-03-10T13:39:54.597364+0530 | INFO | Applying condition: risk_level = 'low'
+2026-03-10T13:39:54.600557+0530 | ERROR | Condition processing failed: cannot assign without a target object
+2026-03-10T13:39:54.605205+0530 | INFO | Generating report: query_result
+2026-03-10T13:39:54.612327+0530 | INFO | Report saved to reports\query_result_20260310_133954.json
+2026-03-10T13:39:54.613473+0530 | INFO | Report generated successfully
+2026-03-10T13:40:05.191903+0530 | INFO | Fetching all available reports

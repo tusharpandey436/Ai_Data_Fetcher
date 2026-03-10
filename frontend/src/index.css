@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Flex:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 7%;
+    --foreground: 214 32% 91%;
+
+    --card: 220 16% 12%;
+    --card-foreground: 214 32% 91%;
+
+    --popover: 220 16% 12%;
+    --popover-foreground: 214 32% 91%;
+
+    --primary: 243 75% 59%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 16% 16%;
+    --secondary-foreground: 214 32% 91%;
+
+    --muted: 220 14% 18%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 187 92% 53%;
+    --accent-foreground: 220 20% 7%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 18%;
+    --input: 220 13% 20%;
+    --ring: 243 75% 59%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 220 16% 10%;
+    --sidebar-foreground: 215 20% 55%;
+    --sidebar-primary: 243 75% 59%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 16% 14%;
+    --sidebar-accent-foreground: 214 32% 91%;
+    --sidebar-border: 220 13% 15%;
+    --sidebar-ring: 243 75% 59%;
+
+    --surface-raised: 220 16% 14%;
+    --glow-cyan: 187 92% 53%;
+    --glow-indigo: 243 75% 59%;
+    --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    @apply font-semibold tracking-tight;
+  }
+
+  .font-body {
+    font-family: 'Roboto Flex', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .radial-vignette {
+    background: radial-gradient(ellipse at center, hsl(220 16% 12%) 0%, hsl(220 20% 7%) 70%);
+  }
+
+  .glow-border-cyan {
+    box-shadow: 0 0 0 1px hsl(187 92% 53% / 0.2), 0 0 20px -5px hsl(187 92% 53% / 0.15);
+  }
+
+  .glow-border-indigo {
+    box-shadow: 0 0 0 1px hsl(243 75% 59% / 0.3), 0 0 20px -5px hsl(243 75% 59% / 0.2);
+  }
+
+  .card-surface {
+    @apply bg-card rounded-xl;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .scan-animation {
+    background: linear-gradient(90deg, transparent 0%, hsl(187 92% 53% / 0.6) 50%, transparent 100%);
+    animation: scan 1.5s ease-in-out infinite;
+  }
+
+  .terminal-bg {
+    background: hsl(220 20% 5%);
+  }
+}
+
+@keyframes scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+@keyframes underline-draw {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.animate-underline-draw {
+  animation: underline-draw 0.4s ease-out forwards;
+  transform-origin: left;
+}

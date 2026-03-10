@@ -1,0 +1,30 @@
+{
+    "report_name": "query_result",
+    "total_records": 4,
+    "records": [
+        {
+            "transaction_id": "T001",
+            "customer_id": "C001",
+            "amount": 5000,
+            "date": "2025-01-01"
+        },
+        {
+            "transaction_id": "T002",
+            "customer_id": "C002",
+            "amount": 15000,
+            "date": "2025-01-02"
+        },
+        {
+            "transaction_id": "T003",
+            "customer_id": "C003",
+            "amount": 20000,
+            "date": "2025-01-03"
+        },
+        {
+            "transaction_id": "T004",
+            "customer_id": "C001",
+            "amount": 8000,
+            "date": "2025-01-04"
+        }
+    ]
+}

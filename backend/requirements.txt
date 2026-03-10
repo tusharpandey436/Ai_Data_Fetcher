@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+numpy
+pydantic
+python-dotenv
+loguru
+requests
+
+# AI
+google-generativeai
+
+# Embeddings
+sentence-transformers
+faiss-cpu

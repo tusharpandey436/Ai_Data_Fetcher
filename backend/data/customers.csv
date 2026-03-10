@@ -1,0 +1,4 @@
+customer_id,name,risk_level
+C001,Alice,Low
+C002,Bob,Medium
+C003,Charlie,High
