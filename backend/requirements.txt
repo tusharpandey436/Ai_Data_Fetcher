@@ -9,7 +9,7 @@ loguru
 requests
 
 # AI
-google-generativeai
+google-genai
 
 # Embeddings
 sentence-transformers
