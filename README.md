@@ -1,6 +1,8 @@
 # 🤖 AI Data Fetcher Agent
 
 > An AI-powered system that lets users query datasets using plain English. The agent automatically discovers relevant datasets, processes them, and generates structured reports — no SQL or code required.
+>
+> AI Data Fetcher Agent is an AI-powered system designed to automatically retrieve, process, and structure operational data for regulatory reporting. The application allows users to query datasets using natural language, which is interpreted using Google Gemini AI. A semantic dataset discovery mechanism powered by FAISS vector search identifies the most relevant dataset from available sources such as CSV, JSON, or database connectors. The backend processes the data using Python and FastAPI, applies filtering or transformation rules, and generates structured reports in JSON format. A React-based dashboard provides an interactive interface for querying datasets, uploading files, viewing generated reports, and monitoring system logs.
 
 ---
 
