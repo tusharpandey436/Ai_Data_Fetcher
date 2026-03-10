@@ -18,7 +18,8 @@ app = FastAPI(
 # -----------------------------
 origins = [
     "http://localhost:3000",   # React dev server
-    "http://localhost:5173",   # Vite React server
+    "http://localhost:5173",
+    "https://ai-data-fetcher.vercel.app/" # Vite React server
     "*"
 ]
 
